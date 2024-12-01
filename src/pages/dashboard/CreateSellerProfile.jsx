@@ -23,15 +23,15 @@ const CreateSellerProfile = () => {
 
   return (
    <main>
-     <div className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
+     <div className='flex flex-col lg:flex-row md:flex-row bg-[#0C3B45] rounded-[20px] w-[100%] text-white'>
         <div className='lg:w-[60%] md:w-[60%] w-[100%] p-8'>
-            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>GreeenEarns - Where environmental consciousness meets blockchain innovation</h2>
+            <h2 className='lg:text-[24px] md:text-[24px] text-[18px] font-bold mb-4'>EcoRewards - Where environmental consciousness meets blockchain innovation</h2>
             <p>To get started listing your eco friendly product, create a seller's profile.</p>
             <div className='mt-6'>
             <CreateProfile />
             </div>
         </div>
-        <div className='lg:w-[40%] md:w-[40%] w-[100%] bg-[#DBECDB] lg:rounded-tl-[50%] md:rounded-tl-[50%] lg:rounded-bl-[50%] rounded-tl-[50%] rounded-tr-[50%] text-right lg:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] p-6 flex justify-center'>
+        <div className='lg:w-[40%] md:w-[40%] w-[100%] bg-[#C7D5D8] lg:rounded-tl-[50%] md:rounded-tl-[50%] lg:rounded-bl-[50%] rounded-tl-[50%] rounded-tr-[50%] text-right lg:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] p-6 flex justify-center'>
             <img src={profileBg} alt="dashboard"  className='w-[100%] lg:w-[60%] md:w-[60%]'/>
         </div>
     </div>
@@ -46,7 +46,7 @@ const CreateSellerProfile = () => {
         <p className='flex justify-between my-4'>Location <span>{info.location}</span></p>
         <p className='flex justify-between my-4'>Products <span>{info.product}</span></p>
         <p className='flex justify-between my-4'>Seller's wallet address: <span>{truncateAddress(info.address)}</span></p>
-        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{convertToWholeNumber(formatUnits(info.payment))}ETH</span> </p>
+        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{convertToWholeNumber(formatUnits(info.payment))}AMB</span> </p>
        {info.address === address && ( <EditProfile id={Number(info.id)} />)}
         </div>
         )

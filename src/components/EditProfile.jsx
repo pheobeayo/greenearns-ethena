@@ -1,10 +1,9 @@
-import  { useState, useEffect } from 'react'
+import  { useState} from 'react'
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { getProvider }from '../constants/providers'
 import { isSupportedChain } from '../connection/index'
 import { getGreenEarnContract } from '../constants/contract';
-import { ethers } from "ethers";
 import {
   useWeb3ModalAccount,
   useWeb3ModalProvider,
@@ -20,8 +19,8 @@ const style = {
     width: 400,
     borderRadius: 10,
     boxShadow: 24,
-    border: '1px solid #42714262',
-    backgroundColor: '#1E1D34',
+    border: '1px solid #0C3B45',
+    backgroundColor: '#0C3B45',
     p: 4,
   };
 
@@ -68,11 +67,11 @@ const EditProfile = ({id}) => {
     
           setOpen(false)
         }
-      };
+      }
   return (
     <div>
         <div>
-        <button className="bg-[#427142] text-white py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2  hover:font-bold" onClick={handleOpen}>Edit Profile</button>
+        <button className="bg-[#0C3B45] text-white py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2  hover:font-bold" onClick={handleOpen}>Edit Profile</button>
     <Modal
         open={open}
         onClose={handleClose}
@@ -82,7 +81,7 @@ const EditProfile = ({id}) => {
         <Box sx={style}>
           <input type="text" placeholder='Location' className="rounded-lg w-[100%] border text-white border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" onChange={(e) => setLocation(e.target.value)} />
           <input type="email" placeholder='Mail' onChange={(e) => setMail(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
-          <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleEditProfile}>Edit &rarr;</button>
+          <button className="bg-[#0C3B45] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleEditProfile}>Edit &rarr;</button>
         </Box>
       </Modal>
         </div>

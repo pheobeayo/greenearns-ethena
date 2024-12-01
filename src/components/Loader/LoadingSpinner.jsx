@@ -1,16 +1,16 @@
-import { Bars  } from 'react-loader-spinner';
+import { FidgetSpinner } from 'react-loader-spinner';
 
 const LoadingSpinner = () => (
   <div className='text-center grid place-content-center'>
-    <Bars 
+    <FidgetSpinner
       height={80}
       width={80}
-      color='#427142'
+      color='#3F9AAE'
       wrapperStyle={{}}
-      wrapperClass=''
+      wrapperClass='fidget-spinner-wrapper'
       visible={true}
-      ariaLabel='bars-loading'
-      secondaryColor='#2B452B'
+      ariaLabel='fidget-spinner-loading'
+      secondaryColor='#0C3B45'
       strokeWidth={2}
       strokeWidthSecondary={2}
     />

@@ -114,9 +114,7 @@ const AddProduct = () => {
   
       try {
         const _amount = ethers.parseUnits(productPrice)
-        // const bytecode = ethers.utils.formatBytes32String(productDesc);
         const transaction = await contract.listProduct(productName, imageUrl, productDesc, _amount, productWeight);
-        console.log("transaction: ", transaction);
         const receipt = await transaction.wait();
   
         if (receipt.status) {
@@ -147,7 +145,7 @@ const AddProduct = () => {
   return (
     <div>
     <div>
-      <button className="bg-white text-[#427142] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] lg:w-[50%] md:w-[50%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Add New Products</button>
+      <button className="bg-white text-[#0C3B45] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] lg:w-[50%] md:w-[50%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Add New Products</button>
     {showUpload && (<Modal
         open={open}
         onClose={handleClose}
@@ -168,7 +166,7 @@ const AddProduct = () => {
           <input type="text" placeholder='Product Name' className="rounded-lg w-[100%] text-white p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" onChange={(e) => setProductName(e.target.value)} />
           <input type="text" placeholder='Image Url' className="rounded-lg w-[100%] text-white border border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" value={imageUrl} readOnly />
           <input type="text" placeholder='Description' className="rounded-lg w-[100%] border text-white border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" onChange={(e) => setProductDesc(e.target.value)} />
-          <input type="text" placeholder='Weight' onChange={(e) => setProductWeight(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
+          <input type="text" placeholder='Quantity' onChange={(e) => setProductWeight(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
           <input type="text" placeholder='Price' onChange={(e) => setProductPrice(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
           <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleAddProduct}>List Product &rarr;</button>
        </div>
