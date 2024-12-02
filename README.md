@@ -13,9 +13,11 @@ Greenearns addresses these challenges by providing a decentralized marketplace f
 ## Screenshots
 
 - 1
-![Screenshot](../greenearns-dao/public/screenshot2.png)
+
+![Screenshot1](./public/screenshot2.png)
+
 - 2
-![Screenshot](../greenearns-dao/public/screenshot.png)
+![Screenshot2](./public/screenshot.png)
 
 
 ## Product Goals:
