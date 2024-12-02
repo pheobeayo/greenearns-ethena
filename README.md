@@ -21,7 +21,15 @@ Enhance User Trust within the platform through user ratings, reviews, and transp
 Mobile App development.
 Implementing the Green Token as incentives for the sellers and buyers to participate in GreenHouse Gas reduction.
 
-## Deployed on lisk testnet
+## Deployed on Ambrosus testnet
+
+```bash
+
+GreenEarns : https://testnet.airdao.io/explorer/address/0x0C5D7fbB6409a3CA7E446d829D9e186c965e547E/
+
+GreenToken : GreenToken  deployed to 0x6bC09DF5731928F1610baED01003f6eC3db99327
+
+```
 
 
 ## Demo Video: (to be provided after demo)

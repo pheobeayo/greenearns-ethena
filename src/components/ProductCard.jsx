@@ -16,7 +16,7 @@ const ProductCard = () => {
             <p className='flex justify-between my-4'>Quantity <span>{Number(info.weight)}</span></p>
             <p className='flex justify-between my-4'>Seller's location <span>{info.location}</span></p>
             <p className='flex justify-between my-4 font-bold'>Price <span>{formatUnits(info.price)}AMB</span> </p>
-            <button className='my-4 border w-[100%] py-2 px-4 border-[#0C3B45] text-[#0C3B45] rounded-lg'>View  details</button>
+            <button className='my-4 border w-[100%] py-2 px-4 border-[#427142] text-[#427142] rounded-lg'>View  details</button>
         </Link>
         </div>))}
     </div>

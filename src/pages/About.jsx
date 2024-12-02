@@ -3,8 +3,8 @@ import aboutimage from "../assets/aboutimage.svg";
 const About = () => {
   return (
     <div>
-      <h2 className="text-[#3F9AAE] lg:text-[36px] md:text-[36px] text-[26px] font-[700] my-8 text-center mb-12">
-        How EcoRewards work
+      <h2 className="text-[#427142] lg:text-[36px] md:text-[36px] text-[26px] font-[700] my-8 text-center mb-12">
+        How Greenearns work
       </h2>
       <div>
         <div className="flex justify-between flex-col lg:flex-row md:flex-row items-center px-4 lg:px-0 md:px-0">

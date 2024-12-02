@@ -43,7 +43,7 @@ const MarketplaceHome = () => {
                                     <p className='flex justify-between my-4'>Quantity <span>{Number(info.weight)}</span></p>
                                     <p className='flex justify-between my-4'>Seller &apos;s location <span>{info.location}</span></p>
                                     <p className='flex justify-between my-4 font-bold'>Price <span>{formatUnits(info.price)} AMB</span></p>
-                                    <button className='my-4 border w-[100%] py-2 px-4 border-[#3F9AAE] bg-white text-[#3F9AAE] rounded-lg'>View details</button>
+                                    <button className='my-4 border w-[100%] py-2 px-4 border-[#427142] bg-white text-[##427142] rounded-lg'>View details</button>
                                 </Link>
                             </div>
                         ))}

@@ -70,7 +70,7 @@ const BuyProduct = ({id, price}) => {
   return (
     <div>
     <div>
-      <button className="bg-white text-[#0C3B45] border border-[#0C3B45] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Buy Products</button>
+      <button className="bg-white text-[#427142] border border-[#427142] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleOpen}>Buy Products</button>
     <Modal
         open={open}
         onClose={handleClose}
@@ -80,7 +80,7 @@ const BuyProduct = ({id, price}) => {
         <Box sx={style}>
         <input type="text" placeholder='Product ID' value={id}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none hidden" readonly/>
           <input type="text" placeholder='Amount' onChange={(e) => setAmount(e.target.value)} className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
-          <button className="bg-[#0C3B45] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleBuyProduct}>Buy Product &rarr;</button>
+          <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleBuyProduct}>Buy Product &rarr;</button>
         </Box>
       </Modal>
       

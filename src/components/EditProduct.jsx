@@ -151,7 +151,7 @@ const EditProduct = ({id}) => {
   return (
     <div>
     <div className=''>
-      <button className='bg-[#0C3B45] py-2 text-white mb-4 ppx-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold'  onClick={handleOpen}>Edit Information</button>
+      <button className='bg-[#427142] py-2 text-white mb-4 ppx-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold'  onClick={handleOpen}>Edit Information</button>
     {showUpload && (<Modal
         open={open}
         onClose={handleClose}
@@ -163,7 +163,7 @@ const EditProduct = ({id}) => {
           <p>File must not be more than 100KB </p>
           <input type="file" onChange={changeHandler} className='my-4'/>
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          <button className="bg-white text-[#0C3B45] py-2 px-4 rounded-lg font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleSubmission}>Submit</button>  
+          <button className="bg-white text-[#427142] py-2 px-4 rounded-lg font-bold text-[16px] w-[100%] my-2 hover:bg-bg-ash hover:text-darkGrey hover:font-bold" onClick={handleSubmission}>Submit</button>  
         </Box>
       </Modal>)}
        {showForm && (<div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-75'>
@@ -175,7 +175,7 @@ const EditProduct = ({id}) => {
           <input type="text" placeholder='Description' className="rounded-lg w-[100%] border text-white border-white/50 p-4 bg-[#ffffff23] backdrop-blur-lg mb-4 outline-none" onChange={(e) => setProductDesc(e.target.value)} />
           <input type="text" placeholder='Quantity' onChange={(e) => setProductWeight(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
           <input type="text" placeholder='Price' onChange={(e) => setProductPrice(e.target.value)}  className="text-white rounded-lg w-[100%] p-4 bg-[#ffffff23] border border-white/50 backdrop-blur-lg mb-4 outline-none" />
-          <button className="bg-[#0C3B45] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleEditProduct}>Edit Product &rarr;</button>
+          <button className="bg-[#427142] text-[white] py-2 px-4 rounded-lg lg:text-[20px] md:text-[20px] font-bold text-[16px] w-[100%] my-4" onClick={handleEditProduct}>Edit Product &rarr;</button>
        </div>
        </div>)}
     </div>

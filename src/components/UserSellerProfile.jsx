@@ -79,7 +79,7 @@ const UserSellerProfile = () => {
                     {formatUnits(info.price)} AMB
                   </span>{" "}
                 </p>
-                <button className="my-4 border w-[100%] py-2 px-4 border-[#0C3B45] text-[#0C3B45] rounded-lg">
+                <button className="my-4 border w-[100%] py-2 px-4 border-[#427142] text-[#427142] rounded-lg">
                   View details
                 </button>
               </Link>
