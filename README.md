@@ -10,6 +10,14 @@ Efficient waste management and recycling remain a significant challenge worldwid
 ## Proposed Solution:
 Greenearns addresses these challenges by providing a decentralized marketplace for recyclable materials, bridging the gap between buyers and sellers of recyclable materials. The product leverages blockchain technology to revolutionize waste management and recycling, creating a solution that not only encourages participation but also promotes sustainability and environmental consciousness.
 
+## Screenshots
+
+- 1
+![Screenshot](./greenearns/public/screenshot2.jpg)
+- 2
+![Screenshot](./greenearns/public/screenshot.png)
+
+
 ## Product Goals:
 Enable users' product listing and purchases through the secure blockchain network.
 Increase Recycling Participation: Encourage more sellers to participate in recycling efforts by connecting them with direct sellers of recyclable materials, hence more materials for their use.
@@ -32,10 +40,20 @@ GreenToken : GreenToken  deployed to 0x6bC09DF5731928F1610baED01003f6eC3db99327
 ```
 
 
-## Demo Video: (to be provided after demo)
+## Demo Video: 
 
-MVP: 
+
+
+## MVP: 
+
+```bash
+
+https://greenearns-dao.vercel.app/
+
+```
 
 ## Pitch Slide: 
+
+
 
 
