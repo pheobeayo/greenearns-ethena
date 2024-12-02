@@ -47,8 +47,13 @@ GreenToken : GreenToken  deployed to 0x6bC09DF5731928F1610baED01003f6eC3db99327
 These deployments provide the foundation for secure, transparent transactions within the decentralized marketplace.
 
 
-### Demo Video: 
+### Demo Video:
 
+```bash
+
+https://www.youtube.com/watch?v=1WLYIXa3vT0
+
+```
 
 
 ### MVP: 
@@ -61,6 +66,9 @@ https://greenearns-dao.vercel.app/
 
 ### Pitch Slide: 
 
+```bash
+
+https://www.canva.com/design/DAGYINDKuFU/b-k3CpD3PfIA1dpmjs3cyA/view?utm_content=DAGYINDKuFU&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 
-
+```
